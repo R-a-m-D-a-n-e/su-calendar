@@ -1,0 +1,62 @@
+{
+  "name": "show",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://su-calendar.github.io/show",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fullcalendar/bootstrap": "^5.5.0",
+    "@fullcalendar/core": "^5.5.1",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/icalendar": "^5.5.1",
+    "@fullcalendar/react": "^5.5.0",
+    "@fullcalendar/timegrid": "^5.5.1",
+    "@primer/octicons-react": "^11.2.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "date-fns": "^2.16.1",
+    "gh-pages": "^3.1.0",
+    "ical2json": "^3.0.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-calendar": "^3.3.0",
+    "react-calendar-toolkit": "^0.4.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": { "gh-pages": "3.1.0" }
+}
